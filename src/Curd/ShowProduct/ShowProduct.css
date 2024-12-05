@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.car{
+    display: flex;
+    flex-direction: column;    
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end ;
+}
+.grid{
+    background-image: 
+    radial-gradient(at 47% 33%, hsl(162.41, 59%, 88%) 0, transparent 59%), 
+    radial-gradient(at 82% 65%, hsl(287.23, 42%, 92%) 0, transparent 55%);
+}
+.con h6{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+}
+.con .des{
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+}
+.con2 .button{
+    font-family: "Work Sans", sans-serif;
+    padding: 10px 10px;
+}
+.grid .button1{
+    background-color: rgb(255, 0, 0);
+    border: none;
+    padding: 13px 20px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.grid .button2{
+    background-color: rgb(48, 174, 3);
+    border: none;
+    padding: 13px 20px;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

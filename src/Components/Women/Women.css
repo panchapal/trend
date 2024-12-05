@@ -1,0 +1,100 @@
+.collections {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.women{
+   padding-top: 100px;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 18px;
+}
+
+.anim .h1{
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.clllll{
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(162.41, 59%, 88%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(287.23, 42%, 92%) 0, transparent 55%);
+}
+.content1 {
+    position: relative;
+    padding: 20px;
+}
+
+.content1::after {
+    content: "";
+    position: absolute;
+    top: 6%;
+    left: 5%;
+    width: 90%;
+    height: 87%;
+    background: #000000de;
+    z-index: 2;
+    opacity: 0;
+}
+
+.content1:hover::after {
+    opacity: 1;
+}
+
+.content1 img {
+    width:300px;
+    height: 300px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.img-content1 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out;
+    color: white;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    z-index: 5;
+    opacity: 0;
+}
+
+.img-content1 p {
+    font-size: 16px;
+}
+
+.img-content1 button {
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.img-content1 a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.img-content1 button:hover {
+    background: white;
+    color: blue;
+}
+
+.img-content1 button:hover~.img-content a {
+    color: blue;
+}
+
+.img-content1 a:hover {
+    color: blue;
+}
+
+.content1:hover .img-content1 {
+    opacity: 1;
+    top: 50%;
+}

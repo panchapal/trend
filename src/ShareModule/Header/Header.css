@@ -1,0 +1,98 @@
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .nav-link:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .Btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 43px;
+    height: 43px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: 0.4s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 65, 65);
+    }
+  
+  .sign {
+    width: 100%;
+    transition-duration: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sign svg {
+    width: 17px;
+  }
+  
+  .sign svg path {
+    fill: white;
+  }
+  
+  .text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: #ecf0f1;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: 0.4s;
+  }
+  
+  .Btn:hover {
+    width: 125px;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+    background-color: rgb(255, 65, 65);
+  }
+  
+  .Btn:hover .sign {
+    width: 30%;
+    transition-duration: 0.4s;
+    padding-left: 12px;
+  }
+  
+  .Btn:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: 0.4s;
+    padding-right: 10px;
+  }
+  
+  .Btn:active {
+    transform: translate(2px, 2px);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .header .css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+    /* background:transparent; */
+    box-shadow: none;
+    /* backdrop-filter: blur(20px); */
+    /* background-color: white; */
+}
+.header .app{
+  background: linear-gradient(184deg, rgba(190,223,215,1) 0%, rgba(247,220,242,1) 100%);
+
+}
+.header .img{
+  height:80px;
+  width: 80px;
+  margin-left: 20px;
+}

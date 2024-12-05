@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.home_page img{
+    height: 100vh;
+    /* width: 100%; */
+    background-position:center;
+    position: relative;
+    background-size:contain;
+}
+#home{
+    background-image: url('../../Assets//shopping-concept-with-couple-space.jpg');
+    /* background-attachment: fixed; */
+    height: 100vh;
+    width: 100%;
+    background-position:center;
+    position: relative;
+    background-size: cover;
+}
+.home_txt {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.home_txt p {
+    color: rgb(241, 78, 106);
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: Mona Sans;
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+}
+.home_txt h2 {
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 53px;
+    color: rgb(59, 17, 47);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    }
+.home_txt .home_label p {
+    color: rgb(37, 36, 36);
+    font-size: 17px;
+    padding-top: 6px;
+    letter-spacing: 2px;
+    font-family: "Raleway", sans-serif;
+}
+
+.home_txt a {
+    text-decoration: none;
+    color: white;
+}
+
+.home_txt button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.button {
+    width: 180px;
+    height: 50px;
+    background-image: linear-gradient(rgb(20, 20, 20), rgb(49, 47, 56));
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    transition-duration: .3s;
+  }
+  
+  .cartIcon {
+    width: 14px;
+    height: fit-content;
+  }
+  
+  .cartIcon path {
+    fill: white;
+  }
+  
+  .button:active {
+    transform: translate(2px ,0px);
+    box-shadow: 0px 1px 0px rgb(139, 113, 255);
+    padding-bottom: 1px;
+  }
+
+
+  .media-icons a {
+    padding: 6px 8px;
+    margin: 0 4px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+  }
+  .media-icons a:nth-child(1) {
+    background: #4267b2;
+  }
+  .media-icons a:nth-child(1):hover {
+    color: #4267b2;
+    background: #fff;
+  }
+  .media-icons a:nth-child(2) {
+    background: #1da1f2;
+  }
+  .media-icons a:nth-child(2):hover {
+    color: #1da1f2;
+    background: #fff;
+  }
+.media-icons a:nth-child(3) {
+    background: #e1306c;
+  }
+  .media-icons a:nth-child(3):hover {
+    color: #e1306c;
+    background: #fff;
+  }
+  .media-icons a:nth-child(4) {
+    background: #0077b5;
+  }
+  .media-icons a:nth-child(4):hover {
+    color: #0077b5;
+    background: #fff;
+  }
+   .media-icons a:nth-child(5) {
+    background: #ff0000;
+  }
+  .media-icons a:nth-child(5):hover {
+    color: #ff0000;
+    background: #fff;
+  }
+
+
+  /* Next Part */
+  .content2 .red {
+    color: rgb(233, 167, 43);
+    cursor: pointer;
+}
+
+.content2 .blue {
+    color: #1717db;
+    cursor: pointer;
+}
+
+.content2 .white {
+    color: rgb(137, 46, 228);
+    cursor: pointer;
+}
+
+.content2 .grey {
+    color: rgb(245, 181, 181);
+    cursor: pointer;
+}
+
+.content2 .brown {
+    color: rgb(230, 37, 169);
+    cursor: pointer;
+}
+
+.content2 .yellow {
+    color: #4cdc88;
+    cursor: pointer;
+}
+
+.content2 .orange {
+    color: #fd4343;
+    cursor: pointer;
+}
+
+.content2 .green {
+    color: #8cd08c;
+    cursor: pointer;
+}
+
+.container1 h3 {
+    padding-top: 78px;
+    margin-bottom: 20px;
+    margin-left: 33px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+.container1{
+    background-color: #e8f3f3;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(162.41, 59%, 88%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(287.23, 42%, 92%) 0, transparent 55%);
+}
+.m{
+    padding-bottom: 30px;
+}
+.container1 .image img {
+    height: 250px;
+    width: 250px;
+}
+
+.container1 .image .price {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: line-through;
+}
+.container1 .image .span{
+  text-decoration: none;
+}
+
+.content2 .buy-now button
+{
+    padding: 10px 15px;
+    margin-top: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #3c2bf7;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: 400;
+    border: 1px solid #5e6ff0;
+    transition: 0.3s;
+}
+
+.content2 .buy-now button:hover{
+    background-color: white;
+    font-weight: 600;
+    color: black;
+}
+
+/*  About*/
+.span{
+  color: rgb(239, 55, 86);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+.spann{
+  font-family: "Playwrite BE VLG", cursive;
+ color: black;
+ font-weight: 600;
+  font-size: 40px;
+}
+/* From Uiverse.io by 0x-Sarthak */ 
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 11.5px 18px;
+  transition: all 0.2s ease;
+  border: 3px solid #552da8;
+  border-radius: 50px;
+  background: #552da8;
+  cursor: pointer;
+  margin-top: 13px;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  border-radius: 50px;
+  background: white;
+  width: 45px;
+  height: 45px;
+  transition: all 0.8s ease;
+}
+
+.cta span {
+  position: relative;
+  font-family: Montserrat;
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: white;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.5s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #1c1c1c;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+  transition: all 2s ease;
+}
+
+.cta:active {
+  transform: scale(0.95);
+  transition: all 2s ease;
+}
+
+
+/* Service */
+.container h4{
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+}
+.container .card h6{
+  font-family: "Work Sans", sans-serif;
+  font-size: 26px;
+}
+.container .card h5{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  margin-top: 6px;
+}
+#button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  margin-top: 13px;
+ }
+ 
+ button.learn-more {
+  width: 12rem;
+  height: auto;
+ }
+ 
+ button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #282936;
+  border-radius: 1.625rem;
+ }
+ 
+ button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+ }
+ 
+ button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+ }
+ 
+ button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+ }
+ 
+ button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.56rem 0;
+  /* margin: 0 0 0 1rem; */
+  color: #282936;
+  font-weight: 600;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 16px;
+ }
+ 
+ button:hover .circle {
+  width: 100%;
+ }
+ 
+ button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+ }
+ 
+ button:hover .button-text {
+  color: #fff;
+ }
+
+
+
+
+/* BLOG */
+.Blog h4{
+  font-family: "Work Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+.blog h6{
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+}
+.blog div{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+.blog .button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  overflow: hidden;
+  background: rgb(129, 77, 242);
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button-text {
+  transform: translateX(15px);
+  font-size: 1.0em;
+  font-weight: 700;
+  transition-duration: 0.3s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.iconer {
+  transform: translateY(35px);
+  transition-duration: 0.3s;
+}
+
+.button:hover .button-text {
+  transform: translateX(0px);
+}
+
+.button:hover .iconer {
+  transform: translateY(0px);
+}
+
+
+
+/* PRODUCT */
+.product{
+  margin-bottom: 10px;
+}
+.product h4{
+  font-family: "Work Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+.product div{
+  font-family: "Work Sans", sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+}
+.product h6{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+/* From Uiverse.io by Df12345677 */ 
+.butto {
+  padding: 16px 16px;
+  background-color: #132233;
+  border: 2px solid rgb(182, 128, 128);
+  color: #eee;
+  transition: .6s;
+  font-size: 15px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.butto span {
+  transform: translateX(10px);
+  transition: .5s;
+}
+
+.butto svg {
+  transform: translateX(-300px);
+  transition: .6s;
+  z-index: 3;
+  height: 20px;
+}
+
+.butto:hover {
+  width: 60px;
+  background-color: rgba(42, 28, 42, 0.815);
+  box-shadow: 20px 20px 96px #bebebe,-20px -20px 96px #ffffff;
+}
+
+.butto:hover svg {
+  transform: translateX(-5px);
+}
+
+.butto:hover span {
+  transform: translateY(70px);
+  font-size: .1rem;
+}
+
+

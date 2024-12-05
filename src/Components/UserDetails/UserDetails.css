@@ -1,0 +1,23 @@
+.content6{
+        background-image: url('../../Assets/ai-generated-8897458.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-top: 10px;
+}
+.paper{
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.626);
+}
+.paper h4{
+    padding-bottom: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

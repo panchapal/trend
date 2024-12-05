@@ -1,0 +1,34 @@
+.content123 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../Assets/ImportedPhoto_1723049939122.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.grid1 {
+  max-width: 360px;
+  width: 100%;
+  padding: 20px;
+  /* background-color: transparent;
+  backdrop-filter: blur(30px); */
+  background-color: rgba(255, 255, 255, 0.628);
+  border-radius: 12px;
+  border: none;
+}
+.content123 h6 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: underline;
+}
+.content123 h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}

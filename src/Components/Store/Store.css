@@ -1,0 +1,90 @@
+.content2 .red {
+    color: rgb(233, 167, 43);
+    cursor: pointer;
+}
+
+.content2 .blue {
+    color: #1717db;
+    cursor: pointer;
+}
+
+.content2 .white {
+    color: rgb(137, 46, 228);
+    cursor: pointer;
+}
+
+.content2 .grey {
+    color: rgb(245, 181, 181);
+    cursor: pointer;
+}
+
+.content2 .brown {
+    color: rgb(230, 37, 169);
+    cursor: pointer;
+}
+
+.content2 .yellow {
+    color: #4cdc88;
+    cursor: pointer;
+}
+
+.content2 .orange {
+    color: #fd4343;
+    cursor: pointer;
+}
+
+.content2 .green {
+    color: #8cd08c;
+    cursor: pointer;
+}
+
+.container1 h3 {
+    padding-top: 78px;
+    margin-bottom: 20px;
+    margin-left: 33px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+.container1{
+    background-color: #e8f3f3;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(162.41, 59%, 88%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(287.23, 42%, 92%) 0, transparent 55%);
+}
+.m{
+    padding-bottom: 30px;
+}
+.container1 .image img {
+    height: 250px;
+    width: 250px;
+}
+
+.container1 .image .price-tag{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content2 .buy-now button
+{
+    padding: 10px 15px;
+    margin-top: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #3c2bf7;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: 400;
+    border: 1px solid #5e6ff0;
+    transition: 0.3s;
+}
+
+.content2 .buy-now button:hover{
+    background-color: white;
+    font-weight: 600;
+    color: black;
+}
+

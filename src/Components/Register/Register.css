@@ -1,0 +1,37 @@
+.register {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../Assets/media_20240807_222831_7908999734251193575.jpg");
+  background-position: center center; /* Center the image both horizontally and vertically */
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensure the image covers the entire container */
+  /* background-attachment: fixed; */
+  padding-top: 80px;
+  padding-right: 60px;
+}
+.grid {
+  max-width: 360px;
+  width: 100%;
+  padding: 20px;
+  /* background-color: transparent;
+  backdrop-filter: blur(30px); */
+  background-color: rgba(255, 255, 255, 0.57);
+  border-radius: 8px;
+  border: none;
+}
+
+.register h4 {
+  text-decoration: underline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 28px;
+}
+
+.register h6 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: underline;
+}
+

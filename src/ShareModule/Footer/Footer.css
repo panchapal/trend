@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap");
+.footer {
+  background-color: #e8f3f3;
+  background-image: radial-gradient(
+      at 47% 33%,
+      hsl(162.41, 59%, 88%) 0,
+      transparent 59%
+    ),
+    radial-gradient(at 82% 65%, hsl(287.23, 42%, 92%) 0, transparent 55%);
+  padding: 20px;
+  margin-top: auto;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+.footer span {
+  color: rgb(239, 55, 86);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+.footer .spa {
+  font-family: "Playwrite BE VLG", cursive;
+  color: black;
+}
+.footer div {
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+.footer1 {
+  padding: 10px;
+  background-color: rgb(224, 184, 254);
+}
+.footer1 div {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer1 span {
+  color: rgb(239, 55, 86);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+.footer1 .spa {
+  font-family: "Playwrite BE VLG", cursive;
+  color: black;
+}
+.footer img {
+  height: 40px;
+  width: 40px;
+  align-items: center;
+}
